@@ -1,10 +1,11 @@
 /* Main */
 body {
 	font-size: 14px;
-	background-color: #f3f6f9;
+	background-color: #232366;
+	color: #fff;
 }
 a {
-    color: #666;
+    color: #eee;
 	font-weight: 500;
 }
 .small, small {
@@ -38,10 +39,10 @@ a {
 }
 .widget .widget-head .widget-title {
     font-size: 14px;
-	color: #a5488a;
+	color: #ff003c;
 }
 .widget.shortcut-widget-box .widget-head .widget-title i {
-    color: #a5488a;
+    color: #ff003c;
 }	
 
 /* Sidebar */
@@ -52,13 +53,13 @@ a {
 }
 .desk-container .desk-sidebar .sidebar-item.selected, .desk-container .desk-sidebar .sidebar-item:hover {
     color: white;
-    background: linear-gradient(to right, #691551, #bf5ea4bf);
+    background: #ff003c;
 }
 .layout-side-section {
     font-size: 14px;
 }
 .uppercase {
-    color:#a5488a;
+    color:#ff003c;
 }
 
 /* Dropdowns */
@@ -74,7 +75,7 @@ a {
     box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
 }
 .page-title .title-text {
-	color: #ac3c8d;
+	color: #ff003c;
 	font-size: 22px;
 }
 
@@ -90,21 +91,21 @@ a {
 
 /* Buttons */
 .btn-primary {
-    background-color: #8d2a71;
-    border-color: #8d2a71;
+    background-color: #ff003c;
+    border-color: #cf0031;
 }
 .control-label, .grid-heading-row {
     font-size:13px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background-color: #6a1552;
-    border-color:#6a1552;
+    background-color: #cf0031;
+    border-color:#ff003c;
 }
 .indicator-right.blue:after, .indicator.blue:before {
-    background: #ac3c8d;
+    background: #ff003c;
 }
 
 /*Other Components*/
 input[type=checkbox]:checked:before {
-    color: #ae3c8e;
+    color: #ff003c;
 }
