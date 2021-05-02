@@ -3,7 +3,7 @@
     padding: 0.1rem 1rem;
 }
 .navbar-light {
-    background: linear-gradient(to right, #691551, #af3d8f);
+    background: #ff003c;
 }
 .navbar-light .navbar-nav .nav-link {
     color:#eee !important;
@@ -18,7 +18,8 @@
 
 /*Body*/
 .body{
-    background-color: #f9f9f9;
+    background-color: #232366;
+    color: #fff;
 }
 
 /*Footer*/
@@ -28,7 +29,7 @@
     width:100%;
     position:fixed;
     border-top: 0px !important;
-    background: linear-gradient(to right, #691551, #af3d8f);
+    background: #ff003c;
 }
 .footer-info {
     border-top: none;
@@ -57,16 +58,16 @@
 
 /*Buttons*/
 .btn-primary {
-    background-color: #8d2a71;
-    border-color: #8d2a71;
+    background-color: #ff003c;
+    border-color: #b5002b;
 }
 .btn-primary:hover, .btn-primary:active, btn-primary:focus {
-    background-color: #6a1552;
-    border-color:#6a1552;
+    background-color: #b5002b;
+    border-color:#ff003c;
 }
 .btn-login:active, .btn-login:focus {
-    background-color: #6a1552;
-    border-color:#6a1552;
+    background-color: #8c1431;
+    border-color:#8c1431;
 }
 
 /*Form*/
@@ -79,5 +80,5 @@
     font-weight:500;
 }
 .indicator-right.blue:after, .indicator.blue:before {
-    background: #8d2a71;
+    background: #ff003c;
 }
